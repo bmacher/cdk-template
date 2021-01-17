@@ -2,11 +2,12 @@
   "extends": "./tsconfig.json",
   "compilerOptions": {
     "baseUrl": ".",
+    "rootDir": "assets",
     "outDir": "dist",
     "skipLibCheck": true
   },
   "include": [
-    "src"
+    "assets"
   ],
   "exclude": [
     "**/*.spec.ts"

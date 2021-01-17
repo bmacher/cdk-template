@@ -19,7 +19,7 @@ const { resolve } = require('path');
 module.exports = {
   preset: 'ts-jest',
   testEnvironment: 'node',
-  rootDir: resolve('src'),
+  rootDir: resolve('test'),
   coverageDirectory: resolve('coverage'),
   testMatch: [
     '**/?(*.)+(spec|test).ts',

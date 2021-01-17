@@ -78,7 +78,7 @@ module.exports = {
     'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
 
     // Enable within aws-cdk projects
-    // "no-new": "off",
+    "no-new": "off",
 
     // Functional style prefered: map, reduce, Object.entries(), ...
     'no-restricted-syntax': [

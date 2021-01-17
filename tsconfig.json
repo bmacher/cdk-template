@@ -19,21 +19,21 @@
     "alwaysStrict": true,
     /* Module Resolution Options */
     "moduleResolution": "node",
-    "baseUrl": ".",
     "paths": {},
     "typeRoots": [
       "node_modules/@types"
     ],
     "types": [
-      "node"
+      "node",
+      "jest"
     ],
     "charset": "utf8",
     "esModuleInterop": true,
     /* Source Map Options */
     "inlineSources": true
   },
-  "include": [
-    "scripts",
-    "src"
+  "exclude": [
+    "node_modules",
+    "cdk.out"
   ]
 }

@@ -1,4 +1,6 @@
-node_modules
 dist
-.eslintrc.js
-jest.config.js
+cdk.out
+node_modules
+*.js
+*.d.ts
+*.json
