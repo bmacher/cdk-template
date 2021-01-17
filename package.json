@@ -9,13 +9,13 @@
   "scripts": {
     "postinstall": "ts-node scripts/npm-post-install-hook.ts",
     "cdk": "cdk",
-    "build": "npm run clean && tsc -p tsconfig.build.json",
+    "build": "yarn clean && tsc -p tsconfig.build.json",
     "clean": "rm -rf dist",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
-    "test": "npm run build && jest",
-    "test:verbose": "npm run build && jest --verbose",
-    "test:coverage": "npm run test:clean && npm run build && jest --coverage",
+    "test": "yarn build && jest",
+    "test:verbose": "yarn build && jest --verbose",
+    "test:coverage": "yarn test:clean && yarn build && jest --coverage",
     "test:clean": "rm -rf coverage"
   },
   "devDependencies": {
