@@ -7,8 +7,11 @@
 
 ## Implementation Guidelines
 
+<<<<<<< HEAD
   - Avoid concrete resource names as long as possible to prevent name clashes
   - Use [resource-names.ts](lib/shared/resource-names.ts) to define name of resources
+=======
+>>>>>>> feat: Inital setup
   - Use destructoring imports over `* as foobar` to get proper intellisense
   - Name the file of a stack with suffix `-stack.ts` but omit suffixes on constructs
   - Use git [commit message convention](https://github.com/digital-production-platform/isi-ui-infra/blob/master/.github/commit-convention.md)
@@ -16,6 +19,7 @@
 
 ## Sharing resources between stacks
 
+<<<<<<< HEAD
 Resources shared across stacks should be exchanged either directly or if not possible with SSM Parameter or concrete names. There are pseudo code snippets under [Resolve dependencies](#resolve-dependencies) to how it could be implemented. Concrete names should be used in case of cross account deployments (e.g. granting some permissions to a role). Directly resolved dependencies can be traced directly in the code but those with SSM Parameter or concrete names not, however you could express those with filling the table under [Dependencies between stacks](#dependencies-between-stacks). I would recommend to use a single place for parameter and resource names and import them from there (e.g. [lib/shared/resource-names.ts](lib/shared/resource-names.ts))
 
 
@@ -108,3 +112,6 @@ class StackB {
   }
 }
 ```
+=======
+Work in progress!
+>>>>>>> feat: Inital setup
