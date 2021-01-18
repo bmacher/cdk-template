@@ -7,7 +7,7 @@
 
 ## Implementation Guidelines
 
-  - Avoid concrete resource names as long as possible to prevent name clashes
+  - Avoid concrete resource names as long as possible to prevent names clashes
   - Use [resource-names.ts](lib/shared/resource-names.ts) to define name of resources
   - Use destructoring imports over `* as foobar` to get proper intellisense
   - Name the file of a stack with suffix `-stack.ts` but omit suffixes on constructs
