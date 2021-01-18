@@ -129,6 +129,7 @@ async function gitPrePushHook() {
 
     info('✅ CDK succeeded');
     blankLine();
+    // #endregion
   } else {
     // We got work in progress commit
     const warnMsg = 'Warning! You are pushing a work in progress commit!\n'
@@ -137,7 +138,6 @@ async function gitPrePushHook() {
 
     console.warn(chalk.keyword('orange')(warnMsg));
     blankLine();
-    // #endregion
   }
 }
 
