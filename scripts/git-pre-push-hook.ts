@@ -7,11 +7,11 @@
  */
 
 import { resolve } from 'path';
-// import { readFileSync } from 'fs';
+import { readFileSync } from 'fs';
 import * as shell from 'shelljs';
-import * as chalk from 'chalk';
 import * as eslint from 'eslint';
 import * as jest from 'jest';
+import chalk = require('chalk');
 
 const { info, error } = console;
 const blankLine = () => info();
@@ -23,7 +23,7 @@ const rootPath = resolve(__dirname, '..');
 
 // Need to wrap whole hook into function to get async/await
 async function gitPrePushHook() {
-  /* // #region Prevent pushing to master
+  // #region Prevent pushing to master
   info('Checking for current branch');
 
   // Can not use 'git branch --show-current' as it prints to stdout
@@ -44,7 +44,7 @@ async function gitPrePushHook() {
 
   info('✅ Branch is not master');
   blankLine();
-  // #endregion */
+  // #endregion
 
   // Only run ESLint and Jest when last commit is none wip
   const wipCommitRE = /^(revert: )?wip/;
