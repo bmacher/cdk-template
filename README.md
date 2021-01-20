@@ -7,6 +7,13 @@
 
 ## Implementation Guidelines
 
+  - Naming conventions:
+    - Functions = camelCase
+    - Classes = PascalCase
+    - Interfaces/Types = PascalCase
+    - Constants = camelCase
+    - File names like what the export (e.g. `class FooBar` &rarr; `Foobar.ts`)
+    - AWS Stacks, Resources, IDs = PascalCase
   - Avoid concrete resource names as long as possible to prevent names clashes
   - Use [resource-names.ts](lib/shared/resource-names.ts) to define name of resources
   - Use destructoring imports over `* as foobar` to get proper intellisense
