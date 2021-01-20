@@ -11,7 +11,7 @@
     - Functions = camelCase
     - Classes = PascalCase
     - Interfaces/Types = PascalCase
-    - Constants = camelCase
+    - Constants = UPPER_CASE_SNAKE_CASE
     - File names like what the export (e.g. `class FooBar` &rarr; `Foobar.ts`)
     - AWS Stacks, Resources, IDs = PascalCase
   - Avoid concrete resource names as long as possible to prevent names clashes
