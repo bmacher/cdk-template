@@ -1,10 +1,10 @@
 ## Description
 
-Describe the purpose of this pr
+Describe the purpose of this PR
 
 ## Related issue(s)
 
-Any related jira issues
+Any related issues
 
 ## Type of change
 
