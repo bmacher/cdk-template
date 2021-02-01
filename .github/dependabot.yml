@@ -9,3 +9,5 @@ updates:
     ignore:
       - dependency-name: "aws-cdk"
       - dependency-name: "@aws-cdk/*"
+    assignees:
+      - "bmacher"
