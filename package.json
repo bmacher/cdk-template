@@ -1,9 +1,9 @@
 {
-  "name": "typescript-template",
-  "version": "1.2.0",
-  "description": "This is a template for TypeScript related projects.",
-  "main": "dist/index.js",
-  "repository": "https://github.com/bmacher/github-typescript-template.git",
+  "name": "cdk-template",
+  "version": "0.2.0",
+  "description": "This is a template for CDK related projects.",
+  "main": "bin/index.ts",
+  "repository": "https://github.com/bmacher/cdk-template",
   "author": "Benjamin Macher",
   "license": "MIT",
   "scripts": {
