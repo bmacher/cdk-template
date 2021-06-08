@@ -25,7 +25,7 @@
     "@types/node": "^15.12.1",
     "@types/shelljs": "^0.8.8",
     "@typescript-eslint/eslint-plugin": "^4.26.0",
-    "@typescript-eslint/parser": "^4.26.0",
+    "@typescript-eslint/parser": "^4.26.1",
     "aws-cdk": "1.85.0",
     "chalk": "^4.1.1",
     "eslint": "^7.28.0",
