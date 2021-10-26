@@ -6,9 +6,9 @@
  * @copyright by Benjamin Macher 2020
  */
 
+import chalk from 'chalk';
 import { readFileSync } from 'fs';
 import { resolve } from 'path';
-import chalk from 'chalk';
 
 const { info, error } = console;
 const blankLine = () => info();
@@ -33,7 +33,7 @@ if (!commitRE.test(msg)) {
     + '    A proper commit message would look like this:\n\n'
     + '    feat(package-a): add a feature\n'
     + '    fix(package-b): error (close: #123)\n\n'
-    + `    For further information see ${chalk.underline('commit-convention.md')}.\n`;
+    + `    For further information see ${chalk.underline('COMMIT_CONVENTION.md')}.\n`;
 
   blankLine();
   error(chalk.red(errorMsg));
